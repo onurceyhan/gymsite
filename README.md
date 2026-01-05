@@ -46,72 +46,6 @@ npm run dev
 
 4. Open your browser and visit `http://localhost:5173`
 
-## 🛠️ Build for Production
-
-Create an optimized production build:
-
-```bash
-npm run build
-```
-
-Preview the production build locally:
-
-```bash
-npm run preview
-```
-
-## 🌐 Deploy to Vercel
-
-### Method 1: Deploy via Vercel CLI
-
-1. Install Vercel CLI globally:
-```bash
-npm install -g vercel
-```
-
-2. Deploy to Vercel:
-```bash
-vercel
-```
-
-3. Follow the prompts and your site will be live!
-
-### Method 2: Deploy via Vercel Dashboard
-
-1. Push your code to GitHub:
-```bash
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin https://github.com/yourusername/gymsite.git
-git push -u origin main
-```
-
-2. Go to [Vercel](https://vercel.com) and sign in
-
-3. Click "Add New Project"
-
-4. Import your GitHub repository
-
-5. Configure the project:
-   - **Framework Preset**: Vite
-   - **Build Command**: `npm run build`
-   - **Output Directory**: `dist`
-
-6. Click "Deploy" and wait for the deployment to complete
-
-7. Your site will be live at `https://your-project-name.vercel.app`
-
-### Environment Variables (if needed)
-
-If you need to add environment variables:
-
-1. Go to your project settings on Vercel
-2. Navigate to "Environment Variables"
-3. Add your variables (e.g., `VITE_API_URL`)
-4. Redeploy your project
-
 ## 📁 Project Structure
 
 ```
@@ -176,9 +110,9 @@ Edit the content directly in each Vue component file:
 
 ## 🔗 Links
 
+- **🌐 Live Demo**: [https://gymsite-theta.vercel.app](https://gymsite-theta.vercel.app)
 - **GitHub**: [github.com/onurceyhan](https://github.com/onurceyhan)
 - **LinkedIn**: [linkedin.com/in/onur.ceyhan](https://linkedin.com/in/onur.ceyhan)
-- **Live Demo**: Deploy to Vercel to get your live demo URL
 
 ## 📄 License
 
